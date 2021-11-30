@@ -1,6 +1,5 @@
 pipeline {
-  agent {
-        any
+  agent { label "dockerT" }
   stages {
     stage("build") {
       steps {
@@ -17,5 +16,4 @@ pipeline {
       }
     }
   }
- }
 }
