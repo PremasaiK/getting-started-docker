@@ -1,5 +1,5 @@
 pipeline {
-  agent { LABEL maintainer="premasai@docker.org"}
+  agent { LABEL 'premasai@docker.org'}
   stages {
     stage("build") {
       steps {
