@@ -1,5 +1,5 @@
 pipeline {
-  agent { label "dockerT" }
+  agent { LABEL maintainer="premasai@docker.org"}
   stages {
     stage("build") {
       steps {
